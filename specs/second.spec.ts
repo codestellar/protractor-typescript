@@ -1,12 +1,13 @@
 import { browser, element, by, By, $, $$, ExpectedConditions } from 'protractor';
-describe('Technossus website', function () { //Suite in Jasmine
-    it('should have Technossus in title', function () { // Test in Jasmine
+import { BusinessLogic } from '../shared/business-logic';
 
-        browser.ignoreSynchronization = false;
-        browser.waitForAngularEnabled(false);                
-        
-        browser.driver.get('http://angularjs.org/');     
-        expect(browser.getTitle()).toContain('AngularJS');      
+
+describe('Codestellar website', function () { //Suite in Jasmine
+    it('should have Codestellar in title', function () { // Test in Jasmine
+
+        let obj = new BusinessLogic();
+        let result = obj.testCodestellar();
+        console.log(result);
 
     });
 });
