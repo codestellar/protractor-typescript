@@ -1,12 +1,13 @@
 import { ProtractorBrowser, Config } from 'protractor';
+
 export let config: Config = {
   seleniumAddress: 'http://localhost:4444/wd/hub',
   capabilities: {
     'browserName': 'chrome'
     },
   framework: 'jasmine',
-  // specs: ['./specs/**/*.js'],
-  specs: ['./specs/second.spec.js'],
+  specs: ['./specs/**/*.js'],
+  // specs: ['./specs/second.spec.js'],
   jasmineNodeOpts: {
     defaultTimeoutInterval: 90000
   },
@@ -15,5 +16,12 @@ export let config: Config = {
    let browser = globals.browser;
    browser.manage().window().maximize();
    browser.manage().timeouts().implicitlyWait(5000);
- }
+ 
+   let HtmlReporter = require('protractor-beautiful-reporter');
+
+   jasmine.getEnv().addReporter(new HtmlReporter({
+    baseDirectory: 'test-report/screenshots'
+   }).getJasmine2Reporter());
+ 
+  }
 }

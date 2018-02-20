@@ -8,7 +8,8 @@
   },
   "devDependencies": {
     "@types/jasmine": "^2.8.2",
-    "@types/jasminewd2": "^2.0.3"
+    "@types/jasminewd2": "^2.0.3",
+    "protractor-beautiful-reporter": "^1.1.2"
   },
   "scripts": {
     "pretest": "npm run tsc",
