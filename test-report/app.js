@@ -135,7 +135,7 @@ app.controller('ScreenshotReportController', function ($scope) {
         "passed": true,
         "pending": false,
         "os": "Windows NT",
-        "sessionId": "c60c89b86b0616b98a8133d8366eddbc",
+        "sessionId": "efe05a8e153207e275dec9b3a48e2924",
         "browser": {
             "name": "chrome",
             "version": "63.0.3239.132"
@@ -143,16 +143,16 @@ app.controller('ScreenshotReportController', function ($scope) {
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "00480093-008b-0003-0032-004b00b100b1.png",
-        "timestamp": 1519128846205,
-        "duration": 8256
+        "screenShotFile": "images\\00420054-00f8-00d1-00dc-003c002c001c.png",
+        "timestamp": 1519233954333,
+        "duration": 10412
     },
     {
         "description": "should have Codestellar in title|Codestellar website",
         "passed": true,
         "pending": false,
         "os": "Windows NT",
-        "sessionId": "c60c89b86b0616b98a8133d8366eddbc",
+        "sessionId": "efe05a8e153207e275dec9b3a48e2924",
         "browser": {
             "name": "chrome",
             "version": "63.0.3239.132"
@@ -163,66 +163,19 @@ app.controller('ScreenshotReportController', function ($scope) {
             {
                 "level": "WARNING",
                 "message": "http://codestellar.net/ - The SSL certificate used to load resources from https://www.payumoney.com will be distrusted in M66. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.",
-                "timestamp": 1519128859762,
+                "timestamp": 1519233970329,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://codestellar.net/ 158:4 Uncaught ReferenceError: odometer is not defined",
-                "timestamp": 1519128861041,
+                "timestamp": 1519233971727,
                 "type": ""
             }
         ],
-        "screenShotFile": "0040007e-00ba-008c-00d9-00cb007b0070.png",
-        "timestamp": 1519128855487,
-        "duration": 6272
-    },
-    {
-        "description": "should add a todo|angularjs homepage todo list",
-        "passed": true,
-        "pending": false,
-        "os": "Windows NT",
-        "sessionId": "412cce9ba983f368c99cc4bd66cd6832",
-        "browser": {
-            "name": "chrome",
-            "version": "63.0.3239.132"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "00c60019-00ad-00a7-0020-00c700e500a8.png",
-        "timestamp": 1519128939070,
-        "duration": 9678
-    },
-    {
-        "description": "should have Codestellar in title|Codestellar website",
-        "passed": true,
-        "pending": false,
-        "os": "Windows NT",
-        "sessionId": "412cce9ba983f368c99cc4bd66cd6832",
-        "browser": {
-            "name": "chrome",
-            "version": "63.0.3239.132"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "WARNING",
-                "message": "http://codestellar.net/ - The SSL certificate used to load resources from https://www.payumoney.com will be distrusted in M66. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.",
-                "timestamp": 1519128953824,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://codestellar.net/ 158:4 Uncaught ReferenceError: odometer is not defined",
-                "timestamp": 1519128955110,
-                "type": ""
-            }
-        ],
-        "screenShotFile": "00850012-003d-00be-00cf-000e00ba00a2.png",
-        "timestamp": 1519128949301,
-        "duration": 6199
+        "screenShotFile": "images\\00e20020-00b5-00ea-00d4-00ae00430056.png",
+        "timestamp": 1519233965353,
+        "duration": 8963
     }
 ];
 
